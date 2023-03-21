@@ -13,13 +13,11 @@ To Be Discussed
 `npm commands:deploy`: deploy commands to discord, always run this first when adding new commands
 `npm start`: run the project
 
-## ./config.json
+## dotenv
 
-create `./config.json`, and fill in these variables:
+create `./.env` based on `./.env/template`
 
 ```
-  {
-    "token": <Found in: Discord Developer Portal => Bot>
-    "clientId": <Found in: Discord Developer Portal => OAuth2 => General>
-  }
+token=<Found in: Discord Developer Portal => Bot>
+clientId=<Found in: Discord Developer Portal => OAuth2 => General>
 ```
